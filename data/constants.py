@@ -9,7 +9,7 @@ ORIGINAL_CAPTION = "Super Mario Bros 1-1"
 
 ## COLORS ##
 
-#            R    G    B
+#               R    G    B
 GRAY         = (100, 100, 100)
 NAVYBLUE     = ( 60,  60, 100)
 WHITE        = (255, 255, 255)
@@ -23,7 +23,7 @@ ORANGE       = (255, 128,   0)
 PURPLE       = (255,   0, 255)
 CYAN         = (  0, 255, 255)
 BLACK        = (  0,   0,   0)
-NEAR_BLACK    = ( 19,  15,  48)
+NEAR_BLACK   = ( 19,  15,  48)
 COMBLUE      = (233, 232, 255)
 GOLD         = (255, 215,   0)
 
@@ -36,7 +36,8 @@ GROUND_HEIGHT = SCREEN_HEIGHT - 62
 
 #MARIO FORCES
 WALK_ACCEL = .15
-RUN_ACCEL = 10
+
+RUN_ACCEL = .20
 SMALL_TURNAROUND = .35
 
 GRAVITY = 1.01
@@ -45,7 +46,7 @@ JUMP_VEL = -10.5
 FAST_JUMP_VEL = -12.5
 MAX_Y_VEL = 11
 
-MAX_RUN_SPEED = 800
+MAX_RUN_SPEED = 30
 MAX_WALK_SPEED = 6
 
 
